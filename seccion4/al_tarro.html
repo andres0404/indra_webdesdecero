@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+</head>
+<body>
+    <form action="">
+        <h1>Bienvenido a la pagina de reservas del hotel "La Parada"</h1>
+        <p>Desde esta página puede gestionar su reserva.</p>
+        <table border="1">
+            <tr>
+                <th>Tipo de habitación</th>
+                <th>No. habitaciones</th>
+                <th>Precio/noche</th>
+            </tr>
+            <tr>
+                <td>Doble</td>
+                <td>2</td>
+                <td>$ 57000</td>
+            </tr>
+            <tr>
+                <td>Triple</td>
+                <td>3</td>
+                <td>$ 76000</td>
+            </tr>
+            <tr>
+                <td>Suite</td>
+                <td>2</td>
+                <td>$ 120000</td>
+            </tr>
+        </table>
+        <hr>
+        <fieldset>
+            <legend>Hotel La Parada</legend>
+            Nombres: <input type="text" name="nombre" id="nombre" placeholder="Nombres"><br>
+            Apellidos: <input type="text" name="ape" id="ape" placeholder="Apellidos"><br>
+            Email: <input type="email" name="emaill" id="mail" placeholder="E-mail"><br>
+            Contraseña: <input type="password" name="clave" id="clave" placeholder="Contraseña"><br>
+            Fecha de entrada: <input type="date" name="fecini" id="fecini" ><br>
+            Fecha de salida: <input type="date" name="fecfin" id="fecfin"><br>
+            <p>Tipo de habitación: </p>
+            <input type="radio" name="habit" id="h1"><label for="h1">Doble</label><br>
+            <input type="radio" name="habit" id="h2"><label for="h2">Triple</label><br>
+            <input type="radio" name="habit" id="h3"><label for="h3">Suite</label><br>
+            <p>Extras opcionales</p>
+            <input type="checkbox" name="opc" id="op1"><label for="op1">Incluir desayuno (+20000/día)</label><br>
+            <input type="checkbox" name="opc" id="op2"><label for="op2">Parqueadero cubierto (+22000/día)</label><br>
+            <br>
+            <p>Comentarios sobre la reserva:</p>
+            <textarea name="coments" id="coments" cols="50" rows="7" placeholder="Escriba sus comentarios"></textarea>    <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>

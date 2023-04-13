@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 2</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Encuesta sobre gustos musicales</legend>
+            ¿Eres hombre o mujer?: <br>
+                <input type="radio" name="tipotipa" id="t1" value="1" checked><label for="t1">Mujer</label><br>
+                <input type="radio" name="tipotipa" id="t2" value="2"><label for="t2">Hombre</label>
+            <p>Selecciona los generos que más te gustan:</p>
+            <input type="checkbox" name="genero[]" id="g1" value="1"><label for="g1">Pop</label><br>
+            <input type="checkbox" name="genero[]" id="g2" value="2"><label for="g2">Rock</label><br>
+            <input type="checkbox" name="genero[]" id="g3" value="3"><label for="g3">Electro</label><br>
+            <input type="checkbox" name="genero[]" id="g4" value="4"><label for="g4">Jazz</label><br>
+            <input type="checkbox" name="genero[]" id="g5" value="5"><label for="g5">Vallenato</label><br>
+            <input type="checkbox" name="genero[]" id="g6" value="6"><label for="g6">Regueton</label><br>
+            <input type="checkbox" name="genero[]" id="g7" value="7"><label for="g7">Clasica</label><br>
+            <input type="checkbox" name="genero[]" id="g8" value="8"><label for="g8">Salsa</label>
+            <p>¿Cuanto tiempo gastas en escuchar musica?</p>
+            <select name="tiempo" id="tiempo">
+                <option value="0"></option>
+                <option value="1">Menos de 30 min</option>
+                <option value="2">Entre 30 a 1 hora</option>
+                <option value="3">Entre 1 hora y 2 horas</option>
+                <option value="4">Todo el hijuep dia</option>
+            </select>
+            <p>Introduce una fecha de llegada al lugar donde vives: <input type="date" name="fecha" id="fecha"></p>
+            <p>
+                Buscar entre los discos favoritos
+                <input type="search" name="buscar" id="buscar" placeholder="Buscar">
+            </p>
+            <br><br>
+            <button type="submit"  >Enviar</button>
+            <button type="reset" >Limpiar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
