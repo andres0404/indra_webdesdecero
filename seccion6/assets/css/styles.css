@@ -1,0 +1,35 @@
+/* inline css 1000 puntos */
+/* estilo general o puntos */
+* { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* de tipo selector 1 punto */
+h1 {
+    font-size: 4em;
+}
+/* de tipo clase 10 puntos */
+.lorem {
+    color: brown;
+}
+/* de tipo ID 100 puntos */
+#importante {
+    color: crimson;
+    font-weight: bold;
+}
+h2, h3, h4 {
+    font-style: italic;
+}
+#cabecerasRojas h2{
+    color: darkcyan;
+}
+#cabecerasRojas h3{
+    color: coral;
+}
+#cabecerasRojas h4, h5 {
+    color: fuchsia;
+}
+/* > para indicar a css que debe aplicar a un hijo directo */
+li>a{ 
+    color: darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
