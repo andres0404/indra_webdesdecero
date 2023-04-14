@@ -1,0 +1,27 @@
+#caja1 {
+    background-color: burlywood;
+    width: 500px;
+    height: 500px;
+    padding: 20px 10px 50px 40px;
+    border: 3px dotted greenyellow;
+    border-top-width: 7px;
+    border-bottom: blueviolet 10px outset;
+    background-image: url("fondo.jpg");
+}
+p {
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+    padding: 10px;
+    border-color: brown;
+    border-style: dashed;
+    border-width: 3px;
+    color: rgba(3, 158, 114, 0.7);
+}
+.inlines {
+    display: inline-block;
+}
