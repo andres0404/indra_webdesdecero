@@ -1,0 +1,92 @@
+body{
+    font-family: sans-serif;
+}
+ol {
+    list-style-type: georgian;
+}
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.listaticks {
+    list-style-image: 😂;
+     /* url("../../../img/laud.png"); */
+}
+
+form fieldset {
+    width: 400px;
+    border: 1px solid rgb(201, 207, 212);;
+    border-radius: 10px;
+    padding: 20px;
+}
+form fieldset label {
+    display: block;
+    margin-bottom: 0;
+}
+form fieldset input {
+    border: none;
+    display: block;
+    border-bottom: 1px solid gray;
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+form fieldset textarea{
+    border: none;
+    display: block;
+    border-bottom: 1px solid gray;
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+form legend {
+    background-color: aliceblue;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    text-align: center;
+    border: 1px solid rgb(201, 207, 212);
+    border-radius: 5px;
+}
+form button {
+    border: 1px solid rgb(201, 207, 212);;
+    padding: 10px 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    color: blueviolet;
+}
+a:visited{
+    color: dodgerblue;
+}
+a:hover{
+    font-size: 1.2em;
+    color:chocolate;
+    border: 3px dotted darkred;
+}
+a:active{
+    background-color: chartreuse;
+}
+table {
+    width: 90%;
+}
+table th, td{
+    padding: 10px;
+}
+table th{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    border-bottom: 2px solid teal;
+    border-top: 1px dashed teal;
+}
+.oscura{
+    background-color: ghostwhite;
+}
+table tr:hover{
+    background-color: darkgrey;
+}

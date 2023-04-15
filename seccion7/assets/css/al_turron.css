@@ -36,7 +36,7 @@ header h1{
 }
 .navbar {
     width: 100%;
-    padding: 5px 0;
+    padding: 7px 0;
     background-color:  rgb(37, 114, 214,0.7);
     display: block;
 }
@@ -44,6 +44,17 @@ header h1{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    font-weight: bolder;
+}
+.navbar a {
+    color: blanchedalmond;
+}
+.navbar a:hover{
+    color: yellow;
+    background-color: rgba(1, 28, 63, 0);
+}
+.navbar li:hover{
+    background-color: rgb(37, 114, 214,1);;
 }
 .post{
     
@@ -74,9 +85,49 @@ header h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
 }
+.postbody table{
+    width:80%;
+    text-align: center;
+    margin: 1px auto;
+}
+.postbody table th{
+    border-bottom: 2px solid gray;
+}
+.postbody table tr:hover{
+    background-color: darkgrey;
+}
 footer {
     color: azure;
     background-color: rgba(1, 28, 63, 0.7);
     padding: 10px;
     font-size: 0.8em;
+    text-align: center;
+}
+
+footer fieldset {
+    border: none;
+}
+form input {
+    border: none;
+    background-color: rgba(1, 28, 63, 0);
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding: 4px 2px;
+}
+form button{
+    border: 1px solid aliceblue;
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 10px;
+    display: inline;
+    margin: 7px;
+    padding: 4px 15px;
+    
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    background-color: yellow;
 }
